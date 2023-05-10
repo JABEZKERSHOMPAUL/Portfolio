@@ -33,6 +33,7 @@
     top: 50%;
     left:50%;
     text-align: center;
+    
 
 }
 
@@ -48,11 +49,32 @@
 
 }
 
+
 .content .btn {
     margin:16px 5px ;
 }
 
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(247, 246, 246); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(50, end),
+      blink-caret 1.0s step-end infinite;
+  }
 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(242, 239, 239); }
+  }
 @media screen and (max-width:640px) {
     .hero .content h1{
         font-size: 3rem;
