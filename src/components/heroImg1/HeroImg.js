@@ -18,7 +18,7 @@ function HeroImg() {
         <div>
         <img src={arrow1} height={'50px'} width={'50px'}/><br/>
           
-        <a href='https://drive.google.com/file/d/1kbHxpbwVW81Viw89iRenLOqsw5GYokJM/view?usp=sharing' target='_blank'><button className='btn btn-waring fs-1'>GET RESUME</button></a>
+        <a href='https://drive.google.com/file/d/1kjAAQJg-UYAQAXngRAAl0YUpMtZk-J3u/view?usp=sharing' target='_blank'><button className='btn btn-waring fs-1'>GET RESUME</button></a>
          
           
         </div><br/>
