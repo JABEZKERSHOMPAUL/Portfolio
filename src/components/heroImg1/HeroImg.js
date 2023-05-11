@@ -17,9 +17,9 @@ function HeroImg() {
         <h1 className='typewriter'>Full Stack Developer.</h1>
         <div>
         <img src={arrow1} height={'50px'} width={'50px'}/><br/>
-          <button className='btn btn-waring fs-1'>GET RESUME
           
-          </button>
+        <a href='https://drive.google.com/file/d/1kbHxpbwVW81Viw89iRenLOqsw5GYokJM/view?usp=sharing' target='_blank'><button className='btn btn-waring fs-1'>GET RESUME</button></a>
+         
           
         </div><br/>
         
