@@ -26,7 +26,7 @@ const ProjectCardData = [
     {
         imgsrc: ToDo,
         title: "ToDo App",
-        text: " It helps users manage and keep track of their tasks or to-do items. It allows users to create, view, Task Completed, and delete tasks, helping them stay organized and prioritize their work. username=jabpaul@gmail, password=admin123 ",
+        text: " It helps users manage and keep track of their tasks or to-do items. It allows users to create, view, Task Completed, and delete tasks, helping them stay organized and prioritize their work. username=jabpaul@gmail.com, password=admin123 ",
         view: "https://todo-app-59899c.netlify.app/",
         source:"https://github.com/JABEZKERSHOMPAUL/To-Do_frontend",
         
