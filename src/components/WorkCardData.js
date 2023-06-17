@@ -18,6 +18,10 @@ const ProjectCardData = [
         title: "CRUD Operation",
         text:"An application that allows users to perform basic database operations on a set of entities or resources. These operations include creating new entities, retrieving existing entities, updating entity data, and deleting entities.",
         view: "https://crudoperation-schoolmanagement.netlify.app/",
+        source:"https://github.com/JABEZKERSHOMPAUL/CRUD_Project-FrontEnd",
+        username:"Thomaspaul@gmail.com",
+        password:"1234"
+
     },
 
     {
@@ -25,6 +29,9 @@ const ProjectCardData = [
         title: "ToDo App",
         text: " It helps users manage and keep track of their tasks or to-do items. It allows users to create, view, Task Completed, and delete tasks, helping them stay organized and prioritize their work. ",
         view: "https://todo-app-59899c.netlify.app/",
+        source:"https://github.com/JABEZKERSHOMPAUL/To-Do_frontend",
+        username:"jabpaul@gmail",
+        password:"admin123"
     }
 ];
 
