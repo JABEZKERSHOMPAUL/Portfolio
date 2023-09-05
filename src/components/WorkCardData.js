@@ -1,17 +1,19 @@
-import pro1 from "./../image/project1.png"
+import pro1 from "./../image/architectui-angular-11-dashboard-pro.jpg"
 import CRUD from "./../image/Screenshot 2023-05-10 215919.png"
 import ToDo from "./../image/Screenshot 2023-05-10 194306.png"
+import admin from "./../image/Screenshot 2023-09-05 200556.png"
 
 
 
 
 const ProjectCardData = [
-    // {
-    //     imgsrc: pro1,
-    //     title: "Ecommerce Website",
-    //     text: "An ecommerce website is an online platform where businesses can sell their products or services to customers over the internet. These websites typically feature a digital storefront where customers can browse through products, add items to their cart, and complete their purchase using an online payment system.",
-    //     view: "https://www.google.com/",
-    // },
+    {
+        imgsrc:pro1 ,
+        title: "DASHBOARD",
+        text: "A dashboard description typically refers to a concise explanation or overview of what a dashboard is, its purpose, and its key features. Dashboards are often used in various contexts, such as business intelligence, data analytics, project management, and monitoring systems, to provide a visual representation of important information and data",
+        view: "https://fronentblackcoffer.vercel.app/",
+        source:"https://github.com/JABEZKERSHOMPAUL/fronentblackcoffer"
+    },
 
     {
         imgsrc:CRUD,
@@ -30,6 +32,13 @@ const ProjectCardData = [
         view: "https://todo-app-59899c.netlify.app/",
         source:"https://github.com/JABEZKERSHOMPAUL/To-Do_frontend",
         
+    },
+    {
+        imgsrc:admin,
+        title: "Student Information Management System Description",
+        text: "The Student Information Management System is a web-based application designed to streamline the process of collecting and managing student details, including uploaded PDF files, for educational institutions. This system is primarily aimed at improving administrative efficiency and providing administrators with an organized and user-friendly way to access student information.",
+        view: "https://hudson-admin.vercel.app/",
+        source:"https://github.com/JABEZKERSHOMPAUL/hudson_frontend"
     }
 ];
 
